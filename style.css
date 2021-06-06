@@ -1,0 +1,23 @@
+canvas{
+    animation-name: hellobro;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hellobro{
+    from{box-shadow: 1px 1px 1000px red;}
+    to{box-shadow: 1px 1px 100px gold;}
+}
+
+body{
+    background-image: url("background.jpg");
+}
+.jpg{
+    width: 50% ;
+    height: 100%; 
+}
+
+.png{
+    width:5%;
+    height:5.5%;
+}
